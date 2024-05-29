@@ -1,0 +1,182 @@
+.body{
+    background-color: #F1F6FC;
+    max-width: 1940px;
+}
+h1 {
+    white-space: nowrap;
+}
+p{
+    white-space: nowrap;
+
+}
+.head{
+    display: flex;
+    gap: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.links-div{
+display: flex;
+gap: 40px;
+align-items: center;
+}
+.links-div a{
+    text-decoration: none;
+color: #0E60AE;
+font-size: 24px;
+}
+.links-div button{
+    width: 90px;
+height: 49px;
+padding: 10px;
+border: none;
+border-radius: 8px;
+background: #A5A5A5AB;
+cursor: pointer;
+font-size: 19px;
+
+}
+
+.avatar-div{
+    display: flex;
+    margin-right: 100px;
+    gap: 40px;
+}
+
+.buttons-div{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 35px;
+    gap: 40px;
+}
+.buttons-div button{
+    width:  115px;
+height:  42px;
+border-radius: 8px;
+border:1px solid #C1C1C1;
+
+background-color: white;
+font-size: 18px;
+
+}
+.buttons-div :hover{
+    color: #0E60AE;
+}
+
+/*///////////////////////////*/
+
+
+.section-one {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 120px;
+    align-items: center;
+  }
+  
+  .data-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -40px;
+  }
+  
+  .name-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .place {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 20px;
+  }
+  
+  .place div {
+    white-space: nowrap;
+  }
+  
+  .form-div {
+    width:  548px;
+    height: Fixed (33px);
+    background-color: white;
+    border-radius: 2px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  .name-div h1 {
+    color: #0E60AE;
+    font-size: 32px;
+  }
+  
+  .place div h1 {
+    font-size: 24px;
+  }
+  .height-div{
+display: flex;
+flex-direction: row;
+margin-right: 50px;
+margin-top: -150px;
+  }
+
+  /*//////////*/
+.section-two img{
+    width: 24px;
+    height: 24px;
+}
+.section-two{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  .container{
+    width: 1000px;
+height: 698px;
+border: 1px solid gray;
+
+  }
+
+  .button-div{
+    display: flex;
+    justify-content: space-around;
+    gap: 560px;
+    margin-top: 20px;
+  }
+
+  .button-div button{
+    width:  176px;
+height: 59px;
+
+padding: 10px;
+
+border-radius: 16px ;
+border: 1px solid gray;
+ font-size: 24px;
+  }
+
+  .forms-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+  }
+
+  .visas-div{
+    width: 950px;
+height: 251px;
+border: 1px solid gray;
+ 
+
+  }

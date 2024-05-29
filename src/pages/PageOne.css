@@ -1,0 +1,177 @@
+.body{
+    background-color: #F1F6FC;
+    max-width: 1940px;
+}
+h1 {
+    white-space: nowrap;
+}
+p{
+    white-space: nowrap;
+
+}
+.head{
+    display: flex;
+    gap: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.links-div{
+display: flex;
+gap: 40px;
+align-items: center;
+}
+.links-div a{
+    text-decoration: none;
+color: #0E60AE;
+font-size: 24px;
+}
+.links-div button{
+    width: 90px;
+height: 49px;
+padding: 10px;
+border: none;
+border-radius: 8px;
+background: #A5A5A5AB;
+cursor: pointer;
+font-size: 19px;
+
+}
+
+.avatar-div{
+    display: flex;
+    margin-right: 100px;
+    gap: 40px;
+}
+
+.buttons-div{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 35px;
+    gap: 40px;
+}
+.buttons-div button{
+    width:  115px;
+height:  42px;
+border-radius: 8px;
+border:1px solid #C1C1C1;
+
+background-color: white;
+font-size: 18px;
+
+}
+.buttons-div :hover{
+    color: #0E60AE;
+}
+
+/*///////////////////////////*/
+
+
+.section-one {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 120px;
+    align-items: center;
+  }
+  
+  .data-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -40px;
+  }
+  
+  .name-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .place {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 20px;
+  }
+  
+  .place div {
+    white-space: nowrap;
+  }
+  
+  .form-div {
+    width:  548px;
+    height: Fixed (33px);
+    background-color: white;
+    border-radius: 2px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  .name-div h1 {
+    color: #0E60AE;
+    font-size: 32px;
+  }
+  
+  .place div h1 {
+    font-size: 24px;
+  }
+  .height-div{
+display: flex;
+flex-direction: row;
+margin-right: 50px;
+margin-top: -150px;
+  }
+/*//////////////////*/
+
+
+ .section-two{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+ }
+ .form{
+    width:1241px;
+height: 104px;
+background-color: white;
+padding: 16px 15px 16px 15px;
+
+border-radius: 8px ;
+border: 1px solid gray;
+display: flex;
+
+ }
+
+ .input-div div{
+    display: flex;
+align-items: center;   
+justify-content: space-between; 
+ }
+
+ .input-div h1{
+    font-size: 32px;
+ }
+
+.input-div{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.mini-form h1{
+    color: gray;
+}
+.mini-form{
+    width: 860px;
+height: 104px;
+border-radius: 8px;
+border: 1px solid gray;
+display: flex;
+margin-left: 170px;
+   background-color: white;
+
+}
